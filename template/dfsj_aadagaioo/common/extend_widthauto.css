@@ -1,0 +1,12 @@
+/* ----------------------------------
+Self-adaption Width CSS file for Discuz! X
+(C) 巅峰设计.
+http://www.dfbar.net
+Created & Modified by 北北″.
+---------------------------------- */
+
+#nv, #mu { border-left: 0; border-right: 0; }
+
+#dfsj_body { width: 98%; }
+.wp { width: 99%; }
+#hd .wp { width: 100%; }

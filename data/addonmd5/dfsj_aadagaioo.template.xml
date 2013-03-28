@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[dfsj_aadagaioo.template]]></item>
+	<item id="RevisionID"><![CDATA[5959]]></item>
+	<item id="SN"><![CDATA[2013021822bU3NZVV9sv]]></item>
+	<item id="RevisionDateline"><![CDATA[1352370693]]></item>
+	<item id="Data">
+		<item id="/common/extend_common.css"><![CDATA[c7de5a737a3512d80b0c5f3e4c01d3c9]]></item>
+		<item id="/common/extend_module.css"><![CDATA[9af66d929ffbf8ad30b1ae9e238420bf]]></item>
+		<item id="/common/extend_widthauto.css"><![CDATA[d1c118de1e3aa6cdd0c6232401570dd3]]></item>
+		<item id="/common/footer.htm"><![CDATA[4ee1a23f47be857a6096d736c54ff23e]]></item>
+		<item id="/common/header.htm"><![CDATA[9dbf19abf0980fb286097c0d3d6414fb]]></item>
+		<item id="/common/header_common.htm"><![CDATA[a66f4d71114f1af1f8a9a1ad3aa6e358]]></item>
+		<item id="/common/pubsearchform.htm"><![CDATA[98d781a37c74681be55da914ce009fe8]]></item>
+		<item id="/dfsj_imgs/account-icons.png"><![CDATA[0a76092339901e5c796826e2a2214817]]></item>
+		<item id="/dfsj_imgs/bd_bg.jpg"><![CDATA[bf5a2a1b04b22a149ddc65e1947fc045]]></item>
+		<item id="/dfsj_imgs/chart.png"><![CDATA[693bac6a44096f6cea710a16ed169f20]]></item>
+		<item id="/dfsj_imgs/collapsed_no.gif"><![CDATA[63b438aa04339e9b74b5e26cdaa5244e]]></item>
+		<item id="/dfsj_imgs/collapsed_yes.gif"><![CDATA[2ec8b88a7d4afbec9fe306bf2f9d3858]]></item>
+		<item id="/dfsj_imgs/create_group.png"><![CDATA[3f854cc0f72b54488334ac3b685bafa8]]></item>
+		<item id="/dfsj_imgs/dfsj_bg.png"><![CDATA[086f9f7efa0c23d0acb65c1ba0411d54]]></item>
+		<item id="/dfsj_imgs/dfsj_nv.png"><![CDATA[21378d5f7747433375b94b0ffa8504a2]]></item>
+		<item id="/dfsj_imgs/dfsj_nv_a.png"><![CDATA[b811bc31ef334cb3163f18f00a3cf9aa]]></item>
+		<item id="/dfsj_imgs/dfsj_sc.png"><![CDATA[810a7ae6eb6bde870d29205b8f2a4803]]></item>
+		<item id="/dfsj_imgs/flw_post.png"><![CDATA[6ef80f970728fd4fea2dbf107733d8b6]]></item>
+		<item id="/dfsj_imgs/forum.png"><![CDATA[2f5635e218de4f12aed1bd496aca91e1]]></item>
+		<item id="/dfsj_imgs/forum_new.png"><![CDATA[64217e6cbdd17757f2b2040001c891be]]></item>
+		<item id="/dfsj_imgs/hd_wpbg.png"><![CDATA[9ebcca9ca0beb7b1c06f4ec736a0f767]]></item>
+		<item id="/dfsj_imgs/hotspot.gif"><![CDATA[71497f719186d96a36719a400064efa6]]></item>
+		<item id="/dfsj_imgs/logo.png"><![CDATA[9e7d48455331b07c90effe9488f77afd]]></item>
+		<item id="/dfsj_imgs/mood_input_btn.png"><![CDATA[3d5f0875c63bd903e0cf65e5e51b75f3]]></item>
+		<item id="/dfsj_imgs/online.gif"><![CDATA[c1c97274ca2798a7dddf2672114cf5f2]]></item>
+		<item id="/dfsj_imgs/pn.png"><![CDATA[6bd91b0084f8b675b20736db18767b15]]></item>
+		<item id="/dfsj_imgs/pn_post.png"><![CDATA[4e623c8c6b915a6c61854e3289e5e6d1]]></item>
+		<item id="/dfsj_imgs/pn_reply.png"><![CDATA[46f667808142998cc3bf8222cc2d18e2]]></item>
+		<item id="/dfsj_imgs/pn_rt.png"><![CDATA[a9cf9f905c5f10cea34fd7ede82c403b]]></item>
+		<item id="/dfsj_imgs/polljoins.gif"><![CDATA[c089a73345835ec093c5a87deeceefe0]]></item>
+		<item id="/dfsj_imgs/scrolltop.png"><![CDATA[d720d2828266fcf69793d8ae3b948d6e]]></item>
+		<item id="/dfsj_imgs/share_btn.png"><![CDATA[192d279a04bb0e80b21c3b14f3b5ccee]]></item>
+		<item id="/dfsj_imgs/social-icons.png"><![CDATA[15e6dd5c2921f209e916ca31a7920bcc]]></item>
+		<item id="/dfsj_imgs/submit_bg.png"><![CDATA[f0980106cf204915c7f36e97ce33c970]]></item>
+		<item id="/dfsj_imgs/Thumbs.db"><![CDATA[1beb46e383de1bde860f0fcd2ef50c11]]></item>
+		<item id="/dfsj_imgs/vlineb.png"><![CDATA[03cc6663545954e7648c458311b65ace]]></item>
+		<item id="/discuz_style_dfsj_aadagaioo.xml"><![CDATA[f0251593c31692d6065c98661cb925fe]]></item>
+		<item id="/forum/discuz.htm"><![CDATA[f98ea7991add1ffe77c82cd79c86dfc8]]></item>
+		<item id="/forum/forumdisplay.htm"><![CDATA[a2f8303024faf396e55d6206375fafcd]]></item>
+		<item id="/forum/forumdisplay_list.htm"><![CDATA[be964f2d51ba0302ca704b08bb066e5e]]></item>
+		<item id="/forum/guide.htm"><![CDATA[275ef837323c7ea0beb8949ddb8b5e1f]]></item>
+		<item id="/forum/viewthread.htm"><![CDATA[08734d0594a2c7f550888166927eb96b]]></item>
+		<item id="/forum/viewthread_node.htm"><![CDATA[a4c320be080316576eba5a4711dd431d]]></item>
+		<item id="/preview.jpg"><![CDATA[ea4aad4d5f56e269414e8f4e551767f7]]></item>
+	</item>
+</root>

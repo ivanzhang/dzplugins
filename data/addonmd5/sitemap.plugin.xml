@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[sitemap.plugin]]></item>
+	<item id="RevisionID"><![CDATA[8166]]></item>
+	<item id="SN"><![CDATA[201302192357WwijWgdP]]></item>
+	<item id="RevisionDateline"><![CDATA[1355812355]]></item>
+	<item id="Data">
+		<item id="/cron.inc.php"><![CDATA[04a15824decda1ecf520b4d10a6293f2]]></item>
+		<item id="/sitemap.fun.php"><![CDATA[e8b81e773b6f19e4cc34aadec7409972]]></item>
+		<item id="/sitemap.inc.php"><![CDATA[aff907a4d54a543c59e507b7b60c3a6e]]></item>
+		<item id="/discuz_plugin_sitemap_SC_UTF8.xml"><![CDATA[18267a9fa346d2105f57e3d5f3847da9]]></item>
+		<item id="/discuz_plugin_sitemap_TC_BIG5.xml"><![CDATA[d68442763c813e3d1794e85667f11e3d]]></item>
+		<item id="/discuz_plugin_sitemap_TC_UTF8.xml"><![CDATA[22ed9a93bac2b277c3a32ffe9cc610a3]]></item>
+		<item id="/discuz_plugin_sitemap_SC_GBK.xml"><![CDATA[7b4ec92d915fee275eb1d836200a11f3]]></item>
+	</item>
+</root>

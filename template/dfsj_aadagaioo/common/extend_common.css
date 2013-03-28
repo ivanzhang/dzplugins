@@ -1,0 +1,106 @@
+/* ----------------------------------
+
+Main CSS file for Discuz! X
+(C) 巅峰设计.
+http://www.dfbar.net
+Created & Modified by 北北″.
+
+---------------------------------- */
+
+#dfsj_body { width: 976px; margin: 0 auto; background: #fff; }
+#hd .wp { width: 976px; background: #fafafa url({STYLEIMGDIR}/hd_wpbg.png); }
+#hd .wp, #hd h2 { padding: 0; }
+#pt { margin-top: 0; }
+#hd .h_pop { background: #50506f; border: 1px solid #4a4a69; box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4); }
+#hd .h_pop a { border-bottom: 0; color: #ccc; }
+#hd .h_pop a:hover { background: #474766; box-shadow: none; }
+#toptb a { color: #fff; }
+#diy-tg_menu a { color: #000; }
+
+#account { float: right; margin-top: 15px;}
+#account ul, #account li { float: left; }
+#account li { height: 50px; line-height: 50px; background-color: #60AAC8; font-size: 14px; color: #fff;}
+#account li a { display: block; text-decoration: none; color: #fff; }
+#account li a:hover { color: #eee;}
+#account .login-icon a { background: url({STYLEIMGDIR}/account-icons.png) 0 17px no-repeat;}
+#account .register-icon a { background: url({STYLEIMGDIR}/account-icons.png) 0 -19px no-repeat;}
+#account li.qq { background: #60AAC8; }
+#account .qq a { background: url({STYLEIMGDIR}/account-icons.png) 0 -141px no-repeat; }
+#account .login-icon a, #account .register-icon a, #account .qq a { padding: 0 25px 0 45px;}
+#account .purple-btn { background: #636382;}
+
+#um { padding-top: 16px; padding-right: 70px; }
+
+#board-stats { padding: 10px 10px 0 0; color: #aaa; text-align: right; }
+#board-stats2 { position: absolute; right: 15px; bottom: 18px; color: #aaa; }
+#board-stats span, #board-stats2 span { font-size: 16px; color: #505050;}
+
+			#nv { height: 65px; }
+				#nv li { padding-right: 0; height: 65px; line-height: 65px; background: none; }
+					.ie_all #nv li { line-height: 68px; }
+					.ie6 #nv li { line-height: 65px; }
+					#nv li a { padding: 0 16px; height: 65px; }
+					#nv li.a { margin-left: 0; }
+						#nv li a:hover, #nv li.hover a:hover, #nv li.hover a { {MENUHOVERBGCODE}; text-decoration: none; }
+
+#qmenu { margin: 20px 4px 0; }
+
+#userbar { height: 56px; background: #fafafa; border-bottom: 1px solid #ddd; padding: 0 10px; }
+#quicknav { float: left; margin-top: 12px;}
+#quicknav ul, #quicknav li { float: left; }
+#quicknav a { display: block; padding-left: 15px; line-height: 36px; color: #444;}
+#quicknav .social_icon { background: url({STYLEIMGDIR}/social-icons.png) no-repeat; height: 36px; width: 36px; padding: 0;}
+#quicknav .facebook { background-position: 0 0;}
+#quicknav .twitter { background-position: 0 -78px;}
+#quicknav .googleplus { background-position: 0 -156px;}
+#quicknav .dribble { background-position: 0 -234px;}
+#quicknav .flickr { background-position: 0 -312px;}
+#quicknav .youtube { background-position: 0 -390px;}
+#quicknav .rss { background-position: 0 -468px;}
+#quicknav .facebook:hover { background-position: 0 -39px;}
+#quicknav .twitter:hover { background-position: 0 -117px;}
+#quicknav .googleplus:hover { background-position: 0 -195px;}
+#quicknav .dribble:hover { background-position: 0 -273px;}
+#quicknav .flickr:hover { background-position: 0 -351px;}
+#quicknav .youtube:hover { background-position: 0 -429px;}
+#quicknav .rss:hover { background-position: 0 -507px;}
+#dfsj_sc { float: right; margin-top: 13px;}
+#dfsj_sc input.dfsj_sc-input { background: #fff; border: 1px solid #e3e3e3; outline: none; width: 182px; height: 32px; margin-right: -7px; padding: 0 8px; line-height: 32px; color: #555;}
+.dfsj_sc_type_td { display: none; }
+#dfsj_sc .dfsj_sc-button { background: url({STYLEIMGDIR}/dfsj_sc.png) 0 0 no-repeat; border: none; width: 46px; height: 34px; cursor: pointer;}
+#dfsj_sc .dfsj_sc-button:hover { background-position: 0 100%;}
+
+.fl { border-width: 0; }
+.fl .bm { margin-bottom: 8px; }
+.fl .bm_h { height: 38px; line-height: 38px; padding: 0 0 0 9px; border: 0; background: url({STYLEIMGDIR}/dfsj_bg.png) no-repeat 0 -164px; overflow: hidden; }
+.fl .bm_h h2 { background: url({STYLEIMGDIR}/dfsj_bg.png) no-repeat 100% -164px; padding-right: 9px; }
+.bm_h .o { padding-right: 10px; }
+.bmw .bm_h a { color: #565656; }
+
+#ft { padding: 30px 8px; background: #565670; border-top: 0; }
+#ft a { color: {FOOTERTEXT}; }
+#ft a:hover { color: #ddd; }
+#scrolltop { margin: -30px 0 0 5px; width: 25px; height: 20px; background: url({STYLEIMGDIR}/scrolltop.png) no-repeat 0 0; }
+#scrolltop:hover { background-position: 0 -25px; }
+
+.dfsj_stars { padding: 0 10px; background: #F8F8F8; border-left: 1px solid #eee; border-right: 1px solid #eee; }
+.dfsj_starst { padding: 0; display: block; background: url({STYLEIMGDIR}/dfsj_bg.png) 0 -90px no-repeat; padding-left: 20px; }
+.dfsj_starst span { padding: 0; height: 12px; display: block; background: url({STYLEIMGDIR}/dfsj_bg.png) 100% -90px no-repeat; }
+.dfsj_starsb { padding: 0; display: block; background: url({STYLEIMGDIR}/dfsj_bg.png) 0 -102px no-repeat; padding-left: 20px; }
+.dfsj_starsb span { padding: 0; height: 12px; display: block; background: url({STYLEIMGDIR}/dfsj_bg.png) 100% -102px no-repeat; }
+.dfsj_stars .bbda { border-bottom: 2px dotted #BBB; }
+
+#online .bm_h, .lk .bm_h { height: 38px; line-height: 38px; padding: 0 0 0 9px; border: 0; font-size: 15px; color: #3A3A3A; background: url({STYLEIMGDIR}/dfsj_bg.png) no-repeat 0 -120px; overflow: hidden; }
+#online .bm_h a, .lk .bm_h a { color: #3A3A3A; }
+#online .bm_h h3, .lk .bm_h h3 { background: url({STYLEIMGDIR}/dfsj_bg.png) no-repeat 100% -120px; padding-right: 9px; }
+
+	.pn { background: #E5E5E5 url({STYLEIMGDIR}/pn.png) repeat-x 0 0; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+		.pn:active { background-position: 0 -23px; }
+
+	.pnc, a.pnc { border-color: #4f90ad; background-color: #4f90ad; background-position: 0 -48px; color: #FFF !important; }
+		.pnc:active { background-position: 0 -71px; }
+
+#create_group_btn { display: block; background: url({STYLEIMGDIR}/create_group.png) no-repeat 0 0; }
+	#create_group_btn img { opacity: 0; filter: alpha(opacity=0); }
+.el .ec .hot, .clct_list .xld .m { background-image: url({STYLEIMGDIR}/hotspot.gif); }
+.pll .s { background-image:url({STYLEIMGDIR}/polljoins.gif); }

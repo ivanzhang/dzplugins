@@ -1,0 +1,101 @@
+/* ----------------------------------
+
+Main CSS file for Discuz! X
+(C) 巅峰设计.
+http://www.dfbar.net
+Created & Modified by 北北″.
+
+---------------------------------- */
+
+/** forum::index **/
+
+	.chart { padding-left: 22px; background: url({STYLEIMGDIR}/chart.png) no-repeat 0 50%; color: {LIGHTTEXT}; }
+.dfsj_icon { margin: -3px 8px 0 0; }
+
+/** end **/
+
+/** forum::index,forum::forumdisplay,group::index,group::group,search::group **/
+
+.fl_tb td { padding: 10px 8px; }
+.fl_tb .fl_g { padding: 0; }
+.fl_icn { background-color: #F7F7F7; }
+.fl_row td { border-top: 1px dashed #E3E3E3; }
+.fl_tb { border-bottom: 1px dashed #E3E3E3; }
+.fl_by { background-color: #F7F7F7; text-align: right; }
+.fl .bm_c { padding: 0; margin-top: 2px; }
+.fl_icn_g { width: 35px; background-color: #F7F7F7; padding: 12px 8px; }
+.fl_g dl { margin-left: 56px; padding: 0 10px; }
+.fl_icn { background-color: #F7F7F7 !important; }
+.fl_i { text-align: left; }
+
+/** end **/
+
+/** forum::forumdisplay,forum::viewthread,forum::modcp,group,home::space,home::task,search::forum,search::group,member::groupexpiry,misc::ranklist,misc::stat,misc::tag **/
+
+.tl .th { padding: 0; }
+		.tl th, .tl td { padding: 8px; border-bottom: 1px dashed #E3E3E3; }
+			.tl tr:hover th, .tl tr:hover td { background-color: {COMMONBG} !important; }
+			.tl .icn { background-color: #F7F7F7; text-align: center;  }
+			.alt .icn { background-color: #F7F7F7 !important; }
+			.tl .comm { border-left: 1px solid #fff; }
+			.tl .o { border-left: 1px solid #fff; padding:8px 0; }
+			.tl .num { border-left: 1px solid #fff; }
+			.tl .by { border-left: 1px solid #fff; background-color: #F7F7F7; }
+			.tl .alt, .tl .alt th, .tl .alt td { background-color: #F7F7F7; }
+			.alt .by { background-color: #F7F7F7 !important; }
+			.tl .th td, .tl .th th { border-left: 1px solid {COMMONBG}; }
+			.tl .th td { background-color: {COMMONBG}; }
+			
+			.tl .by, .tl .num { text-align: center; }
+
+#threadlist .bm_c { background: #fff; padding: 0; }
+
+/** end **/
+
+/** forum::viewthread,group::viewthread,forum::trade,forum::misc **/
+
+.user_infot { height: 0; width: 0; overflow: hidden; line-height: 0; border-color: transparent {WRAPBG} transparent transparent; border-style: dashed solid dashed dashed; border-width: 12px; margin: 45px 0 0 137px; z-index: 1; position: absolute; }
+.user_infob { height: 0; width: 0; overflow: hidden;line-height: 0; border-color: transparent {CONTENTSEPARATE} transparent transparent; border-style: dashed solid dashed dashed; border-width: 12px; margin: 45px 0 0 136px; position: absolute; }
+.dfsj_postx .user_infot { border-color: transparent #fff transparent transparent; }
+.dfsj_post .user_infot { border-color: transparent #F7F7F7 transparent transparent; }
+
+.dfsj_postx { background-color: #fff; }
+.dfsj_post { background-color: #F7F7F7 !important; }
+
+.pls { background: none; }
+.pi strong a { padding: 0 6px; font-size: 18px; color: {NOTICETEXT}; border: 1px solid {COMMONBORDER}; font-weight: 400; }
+.pi strong a:hover { -moz-border-radius: 10px; -webkit-border-radius: 10px;  border-radius: 10px; }
+#pl_top .ad .pls, #pl_top .ad .plc { background: {CONTENTSEPARATE}; }
+
+.dfsj_postx span.dfsj_post_t { display: block; padding-left: 20px; background: url({STYLEIMGDIR}/dfsj_bg.png) 0 -60px no-repeat; }
+.dfsj_postx span.dfsj_post_t span { display: block; background: url({STYLEIMGDIR}/dfsj_bg.png) 100% -60px no-repeat; height: 11px; }
+.dfsj_postx span.dfsj_post_b { display: block; padding-left: 20px; background: url({STYLEIMGDIR}/dfsj_bg.png) 0 -71px no-repeat; font-size: 5px; line-height: 5px; margin-bottom: 5px; }
+.dfsj_postx span.dfsj_post_b span { display: block; background: url({STYLEIMGDIR}/dfsj_bg.png) 100% -71px no-repeat; height: 11px; }
+
+.dfsj_post span.dfsj_post_t { display: block; padding-left: 20px; background: url({STYLEIMGDIR}/dfsj_bg.png) 0 -30px no-repeat !important; }
+.dfsj_post span.dfsj_post_t span { display: block; background: url({STYLEIMGDIR}/dfsj_bg.png) 100% -30px no-repeat !important; height: 11px; }
+.dfsj_post span.dfsj_post_b { display: block; padding-left: 20px; background: url({STYLEIMGDIR}/dfsj_bg.png) 0 -40px no-repeat !important; font-size: 5px; line-height: 5px; margin-bottom: 5px; }
+.dfsj_post span.dfsj_post_b span { display: block; background: url({STYLEIMGDIR}/dfsj_bg.png) 100% -40px no-repeat !important; height: 11px; }
+
+			#p_btn a { background: url({STYLEIMGDIR}/share_btn.png) no-repeat 0 0; }
+				#p_btn i { background: url({STYLEIMGDIR}/share_btn.png) no-repeat 100% 100%; }
+.locked { border: 1px dotted #FF9A9A; box-shadow: 0 0 5px #FF9999; border-radius: 3px; }
+
+/** end **/
+
+/** home::follow **/
+
+#fastpostsubmit { background: transparent url({STYLEIMGDIR}/flw_post.png) no-repeat 0 0; text-indent: -9999px; }
+
+#uhd, #flw_header .bar, .flw_replybox { background-color: #F4F9F9; }
+.flw_replybox .pnc { background-image: url({STYLEIMGDIR}/pn_reply.png); }
+.flw_replybox td table .pnc { background-image: url({STYLEIMGDIR}/pn_rt.png); }
+#flw_post_extra .sec { background-color: #F4F9F9; }
+
+/** end **/
+
+/** home::space,misc::ranklist **/
+
+.moodfm_btn { padding-left: 5px; background: url({STYLEIMGDIR}/mood_input_btn.png) no-repeat 5px 0; }
+
+/** end **/
