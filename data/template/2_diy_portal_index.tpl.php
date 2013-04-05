@@ -1,9 +1,9 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('index');
 0
-|| checktplrefresh('data/diy/./template/dfsj_aadagaioo//portal/index.htm', './template/dfsj_aadagaioo/common/header.htm', 1363516132, 'diy', './data/template/2_diy_portal_index.tpl.php', 'data/diy/./template/dfsj_aadagaioo/', 'portal/index')
-|| checktplrefresh('data/diy/./template/dfsj_aadagaioo//portal/index.htm', './template/dfsj_aadagaioo/common/footer.htm', 1363516132, 'diy', './data/template/2_diy_portal_index.tpl.php', 'data/diy/./template/dfsj_aadagaioo/', 'portal/index')
-|| checktplrefresh('data/diy/./template/dfsj_aadagaioo//portal/index.htm', './template/dfsj_aadagaioo/common/header_common.htm', 1363516132, 'diy', './data/template/2_diy_portal_index.tpl.php', 'data/diy/./template/dfsj_aadagaioo/', 'portal/index')
-|| checktplrefresh('data/diy/./template/dfsj_aadagaioo//portal/index.htm', './template/dfsj_aadagaioo/common/pubsearchform.htm', 1363516132, 'diy', './data/template/2_diy_portal_index.tpl.php', 'data/diy/./template/dfsj_aadagaioo/', 'portal/index')
+|| checktplrefresh('data/diy/./template/dfsj_aadagaioo//portal/index.htm', './template/dfsj_aadagaioo/common/header.htm', 1365140128, 'diy', './data/template/2_diy_portal_index.tpl.php', 'data/diy/./template/dfsj_aadagaioo/', 'portal/index')
+|| checktplrefresh('data/diy/./template/dfsj_aadagaioo//portal/index.htm', './template/dfsj_aadagaioo/common/footer.htm', 1365140128, 'diy', './data/template/2_diy_portal_index.tpl.php', 'data/diy/./template/dfsj_aadagaioo/', 'portal/index')
+|| checktplrefresh('data/diy/./template/dfsj_aadagaioo//portal/index.htm', './template/dfsj_aadagaioo/common/header_common.htm', 1365140128, 'diy', './data/template/2_diy_portal_index.tpl.php', 'data/diy/./template/dfsj_aadagaioo/', 'portal/index')
+|| checktplrefresh('data/diy/./template/dfsj_aadagaioo//portal/index.htm', './template/dfsj_aadagaioo/common/pubsearchform.htm', 1365140128, 'diy', './data/template/2_diy_portal_index.tpl.php', 'data/diy/./template/dfsj_aadagaioo/', 'portal/index')
 ;
 block_get('5,4');?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

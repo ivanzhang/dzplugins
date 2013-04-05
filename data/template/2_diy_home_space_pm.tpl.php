@@ -81,7 +81,7 @@
 <span class="pipe">|</span>
 <a href="home.php?mod=space&amp;do=pm&amp;subop=view&amp;plid=<?php echo $plid;?>&amp;type=1#last"<?php if($list && !$daterange) { ?> class="a"<?php } ?>>群聊记录</a>
 <span class="pipe">|</span>
-<a href="home.php?mod=space&amp;do=pm&amp;subop=view&amp;chatpmmember=1&amp;plid=<?php echo $plid;?>&amp;type=1" id="a_pmdelete_<?php echo $plid;?>"<?php if($chatpmmemberlist && !$daterange) { ?> class="a"<?php } ?> <?php echo $actives['chatpmmember'];?>><?php if($authorid == $_G['uid']) { ?>管理成员<?php } else { ?>成员列表<?php } ?></a>
+<a href="home.php?mod=space&amp;do=pm&amp;subop=view&amp;chatpmmember=1&amp;plid=<?php echo $plid;?>&amp;type=1" id="a_pmdelete_<?php echo $plid;?>"<?php if($chatpmmemberlist && !$daterange) { ?> class="a"<?php } ?> <?php echo $actives['chatpmmember'];?>><?php if($fid == $_G['uid']) { ?>管理成员<?php } else { ?>成员列表<?php } ?></a>
 <span class="pipe">|</span>
 <a href="home.php?mod=spacecp&amp;ac=pm&amp;op=export&amp;plid=<?php echo $plid;?>&amp;type=1" class="xw1">[导出]</a>
 </div>
@@ -89,10 +89,10 @@
 <div class="pm_g cl">
 <h2 class="mbm xs2"><span class="xi1"><?php echo $membernum;?></span> 人话题 : <span class="xi2"><?php echo $subject;?></span></h2>
 <div class="pm_sd">
-<ul class="pm_mem_l<?php if($authorid == $_G['uid']) { ?> pm_admin<?php } ?>"><?php if(is_array($chatpmmemberlist)) foreach($chatpmmemberlist as $key => $value) { ?><li><a href="home.php?mod=space&amp;uid=<?php echo $value['uid'];?>" target="_blank" <?php if($ols[$value['uid']]) { ?> class="xi2" title="在线"<?php } else { ?> class="xg1"<?php } ?>><?php echo $value['username'];?></a></li>
+<ul class="pm_mem_l<?php if($fid == $_G['uid']) { ?> pm_admin<?php } ?>"><?php if(is_array($chatpmmemberlist)) foreach($chatpmmemberlist as $key => $value) { ?><li><a href="home.php?mod=space&amp;uid=<?php echo $value['uid'];?>" target="_blank" <?php if($ols[$value['uid']]) { ?> class="xi2" title="在线"<?php } else { ?> class="xg1"<?php } ?>><?php echo $value['username'];?></a></li>
 <?php } ?>
 </ul>
-<?php if($authorid == $_G['uid']) { ?>
+<?php if($fid == $_G['uid']) { ?>
 <div class="pm_add cl">
 <input type="text" name="username" id="username" class="px z" value="" />
 <span class="z">&nbsp;</span>
@@ -192,7 +192,7 @@ hideMenu();
 </dl><?php } ?>
 <div id="pm_append" style="display: none"></div>
 </div>
-<?php if($multi) { ?><div class="pbm bbda cl"><?php echo $multi;?></div><?php } } elseif($chatpmmemberlist) { if($authorid == $_G['uid']) { ?>
+<?php if($multi) { ?><div class="pbm bbda cl"><?php echo $multi;?></div><?php } } elseif($chatpmmemberlist) { if($fid == $_G['uid']) { ?>
 <div class="tbmu mtn tfm pmform cl">
 <script src="<?php echo $_G['setting']['jspath'];?>home_friendselector.js?<?php echo VERHASH;?>" type="text/javascript"></script>
 <script type="text/javascript">
@@ -270,14 +270,14 @@ selector();
 <?php } ?>
 <ul class="buddy cl">
 <li>
-<div class="avt"><a href="home.php?mod=space&amp;uid=<?php echo $authorid;?>" title="<?php echo $chatpmmemberlist[$authorid]['username'];?>" target="_blank" c="1"><em class="gm"></em><?php echo avatar($authorid,small);?></a></div>
-<h4><a href="home.php?mod=space&amp;uid=<?php echo $authorid;?>" title="<?php echo $chatpmmemberlist[$authorid]['username'];?>"><?php echo $chatpmmemberlist[$authorid]['username'];?></a></h4>
-<p class="maxh"><?php echo $chatpmmemberlist[$authorid]['recentnote'];?></p>
-</li><?php unset($chatpmmemberlist[$authorid]);?><?php if(is_array($chatpmmemberlist)) foreach($chatpmmemberlist as $key => $value) { ?><li>
+<div class="avt"><a href="home.php?mod=space&amp;uid=<?php echo $fid;?>" title="<?php echo $chatpmmemberlist[$fid]['username'];?>" target="_blank" c="1"><em class="gm"></em><?php echo avatar($fid,small);?></a></div>
+<h4><a href="home.php?mod=space&amp;uid=<?php echo $fid;?>" title="<?php echo $chatpmmemberlist[$fid]['username'];?>"><?php echo $chatpmmemberlist[$fid]['username'];?></a></h4>
+<p class="maxh"><?php echo $chatpmmemberlist[$fid]['recentnote'];?></p>
+</li><?php unset($chatpmmemberlist[$fid]);?><?php if(is_array($chatpmmemberlist)) foreach($chatpmmemberlist as $key => $value) { ?><li>
 <div class="avt"><a href="home.php?mod=space&amp;uid=<?php echo $value['uid'];?>" title="<?php echo $value['username'];?>" target="_blank" c="1"><?php echo avatar($value[uid],small);?></a></div>
 <h4><a href="home.php?mod=space&amp;uid=<?php echo $value['uid'];?>" title="<?php echo $value['username'];?>"><?php echo $value['username'];?></a></h4>
 <p class="maxh"><?php echo $value['recentnote'];?></p>
-<?php if($authorid == $_G['uid']) { ?>
+<?php if($fid == $_G['uid']) { ?>
 <p class="xg1"><a href="home.php?mod=spacecp&amp;ac=pm&amp;op=kickmember&amp;memberuid=<?php echo $key;?>&amp;plid=<?php echo $plid;?>" id="a_kickmmeber_<?php echo $key;?>" title="将 <?php echo $value['username'];?> 从该群聊中踢出" onclick="showWindow(this.id, this.href, 'get', 0);">踢出</a></p>
 <?php } ?>
 </li>

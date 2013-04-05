@@ -6,16 +6,16 @@ if (!defined('IN_DISCUZ')) {
 
 //初始化当前页码
 $page = empty($_GET['page']) ? 1 : intval($_GET['page']);
-$authorid = empty($_GET['uid']) ? 1 : intval($_GET['uid']);
+$fid = empty($_GET['fid']) ? 1 : intval($_GET['fid']);
 if ($page < 1) $page = 1;
 
 //分页
-$perpage = 10000;
+$perpage = 2000;
 $start = ($page - 1) * $perpage;
 
 //获取当前页的留言数据
 $list = array();
-$query = DB::query("SELECT * FROM " . DB::table('forum_thread') . " WHERE authorid= " . $authorid . " ORDER BY tid DESC LIMIT $start, $perpage");
+$query = DB::query("SELECT * FROM " . DB::table('forum_thread') . " WHERE fid= " . $fid . " and views < 187 ORDER BY tid DESC LIMIT $start, $perpage");
 
 
 $author_names = array("xiaogege", "meinv001", "haha", "jianren008", "psy", "girlsgeneration", 'girl007', "beijingaicao", "gujini",
@@ -25,7 +25,7 @@ $author_names = array("xiaogege", "meinv001", "haha", "jianren008", "psy", "girl
     '来飞一个', '大火不错', '菊花你', '小哥哥', '夜夜笙歌', '隔壁很嗨', '看看吧', '置顶帖', '就爱草', '各级领导', '傻傻的', '也莪也爱', 'xiaoav',
     '寂寞啊', '空虚女001', '卸货必须的', '火大伤身', '观阴大湿', '波大精深', '老衲要射了', '日日精进', '小关',
     '小张哥', '北京一夜', '上海滩小男人', '花无缺', '小鱼儿', '当年的带头大哥', '北方的狼001', '香港蒲友', '佛山一哥', 'guoguo', 'xiaohu002',
-    'xiaoyu001', 'girls','roudaoaiai','货货货！','kingofthereturn','Zoleo','姨妈大','f22099','djl_dj','andong','exy','chenjian','jian1117',
+    'xiaoyu001', 'girls', 'roudaoaiai', '货货货！', 'kingofthereturn', 'Zoleo', '姨妈大', 'f22099', 'djl_dj', 'andong', 'exy', 'chenjian', 'jian1117',
     'binbin', 'power', 'love', 'sexof', 'city', 'aman', 'xzccss', '1542222', 'woer223', 'dege', 'js001', 'xiaojienihao', 'tyamdp', 'khty');
 
 while ($thread = DB::fetch($query)) {

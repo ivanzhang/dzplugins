@@ -1,6 +1,6 @@
 <?php
 //Discuz! cache file, DO NOT modify me!
-//Identify: c42139f88d709f17b9960eb18b7378da
+//Identify: 4c9089c98f4b907e5e03b2cfa8d28fe3
 
 $domain = array (
   'defaultindex' => 'portal.php',
@@ -15,10 +15,10 @@ $domain = array (
   ),
   'app' => 
   array (
-    'portal' => 'www.yihuagong.net',
-    'forum' => 'bbs.yihuagong.net',
-    'mobile' => 'm.yihuagong.net',
-    'default' => 'yihuagong.net',
+    'portal' => '',
+    'forum' => '',
+    'mobile' => '',
+    'default' => '',
     'group' => '',
     'home' => '',
   ),
